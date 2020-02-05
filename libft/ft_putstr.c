@@ -12,13 +12,20 @@
 
 #include "libft.h"
 
-void		ft_putstr(char const *s)
+int		ft_putstr(char const *s, int width)
 {
-	size_t i;
+	int i;
+	int count;
+	int len;
 
-	if (!s)
-		return ;
-	i = 0;
-	while (s[i])
-		ft_putchar(s[i++]);
+	count = 0;
+	if (s && width > -1)
+	{
+		i = 0;
+		len = ft_strlen(s);
+		width = (width > 0) ? ft_min(len, width) : 0;
+		while (i < width)
+			count += ft_putchar(s[i++]);
+	}
+	return (count);
 }

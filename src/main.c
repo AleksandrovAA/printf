@@ -3,18 +3,11 @@
 
 int main(void)
 {
-    //ft_printf("%7p", "hello");
-    int m = 78;
-    printf("%p\n", &m);
-    ft_printf("%p\n", &m);
+	//int *m = NULL;
+	//printf("%05x\n", 12);
+    //ft_printf("%05p\n", m);
 
-    char *s = "gg";
-    printf("%p\n", &s[0]);
-    ft_printf("%p\n", &s[0]);
+	ft_printf("% d", 3);
 
-    int po;
-    printf("%#20x\n", po);
-    ft_printf("%#20x\n", po);
-    //printf("\\");
-    return (0);
+	return (0);
 }

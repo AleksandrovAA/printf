@@ -6,7 +6,7 @@
 /*   By: lcarmelo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/23 20:36:34 by lcarmelo          #+#    #+#             */
-/*   Updated: 2019/11/29 22:01:01 by fpythago         ###   ########.fr       */
+/*   Updated: 2020/02/05 17:35:09 by ngale            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,12 @@ typedef unsigned char		t_uc;
 typedef const unsigned char	t_cuc;
 typedef unsigned long long	t_ull;
 typedef long long			t_ll;
-typedef long				t_l;
+typedef short int			t_si;
 typedef unsigned long		t_ul;
 typedef unsigned int		t_ui;
 typedef unsigned short int	t_usi;
+typedef long double			t_lf;
+typedef long				t_l;
 
 void						*ft_memset(void *b, int c, size_t len);
 void						ft_bzero(void *s, size_t n);
@@ -51,6 +53,7 @@ char						*ft_strcat(char *s1, const char *s2);
 char						*ft_strncat(char *s1, const char *s2, size_t len);
 size_t						ft_strlcat(char *dst, const char *src, size_t size);
 char						*ft_strchr(const char *s, int c);
+int							ft_strchri(const char *s, int c);
 char						*ft_strrchr(const char *s,
 										int c);
 char						*ft_strstr(const char *haystack,
@@ -93,8 +96,8 @@ char						*ft_uitoa_base(t_ui value, int base, char reg);
 char						*ft_ulltoa_base(t_ull value, int base, char reg);
 int							ft_strequ(char const *s1, char const *s2);
 
-void						ft_putchar(char c);
-void						ft_putstr(char const *s);
+int							ft_putchar(char c);
+int							ft_putstr(char const *s, int width);
 void						ft_putendl(char const *s);
 void						ft_putnbr(int n);
 
