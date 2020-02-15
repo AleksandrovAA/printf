@@ -25,7 +25,6 @@ DIR_LIB		= ./libft/
 SRC_PRINTF 	= $(addprefix $(DIR_SRC), $(addsuffix .c, $(FUN_NAME)))
 OBJ_PRINTF 	= $(addsuffix .o, $(FUN_NAME))
 
-CC 	   		= gcc
 NAME 		= libftprintf.a
 CFLAGS 	   	= -Wall -Werror -Wextra -O2 -I$(DIR_INC) -I$(DIR_LIB)$(DIR_INC)
 
@@ -34,9 +33,10 @@ all: $(NAME)
 $(NAME):
 	@make -C $(DIR_LIB)
 	@cp libft/libft.a ./$(NAME)
-	@$(CC) -c $(CFLAGS) $(SRC_PRINTF)
+	@gcc -c $(CFLAGS) $(SRC_PRINTF)
 	@ar rc $(NAME) $(OBJ_PRINTF)
 	@ranlib $(NAME)
+	@gcc $(CFLAGS) src/main.c $(NAME)
 
 clean:
 	@make clean -C $(DIR_LIB)
@@ -48,7 +48,7 @@ fclean: clean
 
 re: fclean all
 
-compile: re clean
-	@$(CC) $(CFLAGS) src/main.c $(NAME)	
+# compile: re clean
+# 	@gcc $(CFLAGS) src/main.c $(NAME)
 
 .PHONY: all clean fclean re compile
