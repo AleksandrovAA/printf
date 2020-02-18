@@ -987,6 +987,33 @@ libft/vector/vector_erase.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_erase.c.s
 .PHONY : libft/vector/vector_erase.c.s
 
+libft/vector/vector_free_size.o: libft/vector/vector_free_size.c.o
+
+.PHONY : libft/vector/vector_free_size.o
+
+# target to build an object file
+libft/vector/vector_free_size.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_free_size.c.o
+.PHONY : libft/vector/vector_free_size.c.o
+
+libft/vector/vector_free_size.i: libft/vector/vector_free_size.c.i
+
+.PHONY : libft/vector/vector_free_size.i
+
+# target to preprocess a source file
+libft/vector/vector_free_size.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_free_size.c.i
+.PHONY : libft/vector/vector_free_size.c.i
+
+libft/vector/vector_free_size.s: libft/vector/vector_free_size.c.s
+
+.PHONY : libft/vector/vector_free_size.s
+
+# target to generate assembly for a file
+libft/vector/vector_free_size.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_free_size.c.s
+.PHONY : libft/vector/vector_free_size.c.s
+
 libft/vector/vector_get_element.o: libft/vector/vector_get_element.c.o
 
 .PHONY : libft/vector/vector_get_element.o
@@ -1122,6 +1149,60 @@ libft/vector/vector_move.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_move.c.s
 .PHONY : libft/vector/vector_move.c.s
 
+libft/vector/vector_move_back_data.o: libft/vector/vector_move_back_data.c.o
+
+.PHONY : libft/vector/vector_move_back_data.o
+
+# target to build an object file
+libft/vector/vector_move_back_data.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.o
+.PHONY : libft/vector/vector_move_back_data.c.o
+
+libft/vector/vector_move_back_data.i: libft/vector/vector_move_back_data.c.i
+
+.PHONY : libft/vector/vector_move_back_data.i
+
+# target to preprocess a source file
+libft/vector/vector_move_back_data.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.i
+.PHONY : libft/vector/vector_move_back_data.c.i
+
+libft/vector/vector_move_back_data.s: libft/vector/vector_move_back_data.c.s
+
+.PHONY : libft/vector/vector_move_back_data.s
+
+# target to generate assembly for a file
+libft/vector/vector_move_back_data.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.s
+.PHONY : libft/vector/vector_move_back_data.c.s
+
+libft/vector/vector_move_data.o: libft/vector/vector_move_data.c.o
+
+.PHONY : libft/vector/vector_move_data.o
+
+# target to build an object file
+libft/vector/vector_move_data.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_move_data.c.o
+.PHONY : libft/vector/vector_move_data.c.o
+
+libft/vector/vector_move_data.i: libft/vector/vector_move_data.c.i
+
+.PHONY : libft/vector/vector_move_data.i
+
+# target to preprocess a source file
+libft/vector/vector_move_data.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_move_data.c.i
+.PHONY : libft/vector/vector_move_data.c.i
+
+libft/vector/vector_move_data.s: libft/vector/vector_move_data.c.s
+
+.PHONY : libft/vector/vector_move_data.s
+
+# target to generate assembly for a file
+libft/vector/vector_move_data.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_move_data.c.s
+.PHONY : libft/vector/vector_move_data.c.s
+
 libft/vector/vector_offset.o: libft/vector/vector_offset.c.o
 
 .PHONY : libft/vector/vector_offset.o
@@ -1229,6 +1310,33 @@ libft/vector/vector_push_back.s: libft/vector/vector_push_back.c.s
 libft/vector/vector_push_back.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_push_back.c.s
 .PHONY : libft/vector/vector_push_back.c.s
+
+libft/vector/vector_push_data.o: libft/vector/vector_push_data.c.o
+
+.PHONY : libft/vector/vector_push_data.o
+
+# target to build an object file
+libft/vector/vector_push_data.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_push_data.c.o
+.PHONY : libft/vector/vector_push_data.c.o
+
+libft/vector/vector_push_data.i: libft/vector/vector_push_data.c.i
+
+.PHONY : libft/vector/vector_push_data.i
+
+# target to preprocess a source file
+libft/vector/vector_push_data.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_push_data.c.i
+.PHONY : libft/vector/vector_push_data.c.i
+
+libft/vector/vector_push_data.s: libft/vector/vector_push_data.c.s
+
+.PHONY : libft/vector/vector_push_data.s
+
+# target to generate assembly for a file
+libft/vector/vector_push_data.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/libft/vector/vector_push_data.c.s
+.PHONY : libft/vector/vector_push_data.c.s
 
 libft/vector/vector_push_front.o: libft/vector/vector_push_front.c.o
 
@@ -1605,6 +1713,9 @@ help:
 	@echo "... libft/vector/vector_erase.o"
 	@echo "... libft/vector/vector_erase.i"
 	@echo "... libft/vector/vector_erase.s"
+	@echo "... libft/vector/vector_free_size.o"
+	@echo "... libft/vector/vector_free_size.i"
+	@echo "... libft/vector/vector_free_size.s"
 	@echo "... libft/vector/vector_get_element.o"
 	@echo "... libft/vector/vector_get_element.i"
 	@echo "... libft/vector/vector_get_element.s"
@@ -1620,6 +1731,12 @@ help:
 	@echo "... libft/vector/vector_move.o"
 	@echo "... libft/vector/vector_move.i"
 	@echo "... libft/vector/vector_move.s"
+	@echo "... libft/vector/vector_move_back_data.o"
+	@echo "... libft/vector/vector_move_back_data.i"
+	@echo "... libft/vector/vector_move_back_data.s"
+	@echo "... libft/vector/vector_move_data.o"
+	@echo "... libft/vector/vector_move_data.i"
+	@echo "... libft/vector/vector_move_data.s"
 	@echo "... libft/vector/vector_offset.o"
 	@echo "... libft/vector/vector_offset.i"
 	@echo "... libft/vector/vector_offset.s"
@@ -1632,6 +1749,9 @@ help:
 	@echo "... libft/vector/vector_push_back.o"
 	@echo "... libft/vector/vector_push_back.i"
 	@echo "... libft/vector/vector_push_back.s"
+	@echo "... libft/vector/vector_push_data.o"
+	@echo "... libft/vector/vector_push_data.i"
+	@echo "... libft/vector/vector_push_data.s"
 	@echo "... libft/vector/vector_push_front.o"
 	@echo "... libft/vector/vector_push_front.i"
 	@echo "... libft/vector/vector_push_front.s"

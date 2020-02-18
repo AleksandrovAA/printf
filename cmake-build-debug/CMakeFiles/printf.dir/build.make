@@ -473,9 +473,22 @@ CMakeFiles/printf.dir/libft/vector/vector_erase.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/libft/vector/vector_erase.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/libft/vector/vector_erase.c -o CMakeFiles/printf.dir/libft/vector/vector_erase.c.s
 
+CMakeFiles/printf.dir/libft/vector/vector_free_size.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/libft/vector/vector_free_size.c.o: ../libft/vector/vector_free_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/printf.dir/libft/vector/vector_free_size.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_free_size.c.o   -c /Users/ngale/printf/libft/vector/vector_free_size.c
+
+CMakeFiles/printf.dir/libft/vector/vector_free_size.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/libft/vector/vector_free_size.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ngale/printf/libft/vector/vector_free_size.c > CMakeFiles/printf.dir/libft/vector/vector_free_size.c.i
+
+CMakeFiles/printf.dir/libft/vector/vector_free_size.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/libft/vector/vector_free_size.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/libft/vector/vector_free_size.c -o CMakeFiles/printf.dir/libft/vector/vector_free_size.c.s
+
 CMakeFiles/printf.dir/libft/vector/vector_get_element.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_get_element.c.o: ../libft/vector/vector_get_element.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/printf.dir/libft/vector/vector_get_element.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/printf.dir/libft/vector/vector_get_element.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_get_element.c.o   -c /Users/ngale/printf/libft/vector/vector_get_element.c
 
 CMakeFiles/printf.dir/libft/vector/vector_get_element.c.i: cmake_force
@@ -488,7 +501,7 @@ CMakeFiles/printf.dir/libft/vector/vector_get_element.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_init.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_init.c.o: ../libft/vector/vector_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/printf.dir/libft/vector/vector_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/printf.dir/libft/vector/vector_init.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_init.c.o   -c /Users/ngale/printf/libft/vector/vector_init.c
 
 CMakeFiles/printf.dir/libft/vector/vector_init.c.i: cmake_force
@@ -501,7 +514,7 @@ CMakeFiles/printf.dir/libft/vector/vector_init.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_insert.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_insert.c.o: ../libft/vector/vector_insert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/printf.dir/libft/vector/vector_insert.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/printf.dir/libft/vector/vector_insert.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_insert.c.o   -c /Users/ngale/printf/libft/vector/vector_insert.c
 
 CMakeFiles/printf.dir/libft/vector/vector_insert.c.i: cmake_force
@@ -514,7 +527,7 @@ CMakeFiles/printf.dir/libft/vector/vector_insert.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.o: ../libft/vector/vector_is_empty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.o   -c /Users/ngale/printf/libft/vector/vector_is_empty.c
 
 CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.i: cmake_force
@@ -527,7 +540,7 @@ CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_move.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_move.c.o: ../libft/vector/vector_move.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/printf.dir/libft/vector/vector_move.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/printf.dir/libft/vector/vector_move.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_move.c.o   -c /Users/ngale/printf/libft/vector/vector_move.c
 
 CMakeFiles/printf.dir/libft/vector/vector_move.c.i: cmake_force
@@ -538,9 +551,35 @@ CMakeFiles/printf.dir/libft/vector/vector_move.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/libft/vector/vector_move.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/libft/vector/vector_move.c -o CMakeFiles/printf.dir/libft/vector/vector_move.c.s
 
+CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.o: ../libft/vector/vector_move_back_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.o   -c /Users/ngale/printf/libft/vector/vector_move_back_data.c
+
+CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ngale/printf/libft/vector/vector_move_back_data.c > CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.i
+
+CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/libft/vector/vector_move_back_data.c -o CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.s
+
+CMakeFiles/printf.dir/libft/vector/vector_move_data.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/libft/vector/vector_move_data.c.o: ../libft/vector/vector_move_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/printf.dir/libft/vector/vector_move_data.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_move_data.c.o   -c /Users/ngale/printf/libft/vector/vector_move_data.c
+
+CMakeFiles/printf.dir/libft/vector/vector_move_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/libft/vector/vector_move_data.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ngale/printf/libft/vector/vector_move_data.c > CMakeFiles/printf.dir/libft/vector/vector_move_data.c.i
+
+CMakeFiles/printf.dir/libft/vector/vector_move_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/libft/vector/vector_move_data.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/libft/vector/vector_move_data.c -o CMakeFiles/printf.dir/libft/vector/vector_move_data.c.s
+
 CMakeFiles/printf.dir/libft/vector/vector_offset.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_offset.c.o: ../libft/vector/vector_offset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/printf.dir/libft/vector/vector_offset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/printf.dir/libft/vector/vector_offset.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_offset.c.o   -c /Users/ngale/printf/libft/vector/vector_offset.c
 
 CMakeFiles/printf.dir/libft/vector/vector_offset.c.i: cmake_force
@@ -553,7 +592,7 @@ CMakeFiles/printf.dir/libft/vector/vector_offset.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.o: ../libft/vector/vector_pop_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.o   -c /Users/ngale/printf/libft/vector/vector_pop_back.c
 
 CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.i: cmake_force
@@ -566,7 +605,7 @@ CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.o: ../libft/vector/vector_pop_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.o   -c /Users/ngale/printf/libft/vector/vector_pop_front.c
 
 CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.i: cmake_force
@@ -579,7 +618,7 @@ CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_push_back.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_push_back.c.o: ../libft/vector/vector_push_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/printf.dir/libft/vector/vector_push_back.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/printf.dir/libft/vector/vector_push_back.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_push_back.c.o   -c /Users/ngale/printf/libft/vector/vector_push_back.c
 
 CMakeFiles/printf.dir/libft/vector/vector_push_back.c.i: cmake_force
@@ -590,9 +629,22 @@ CMakeFiles/printf.dir/libft/vector/vector_push_back.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/libft/vector/vector_push_back.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/libft/vector/vector_push_back.c -o CMakeFiles/printf.dir/libft/vector/vector_push_back.c.s
 
+CMakeFiles/printf.dir/libft/vector/vector_push_data.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/libft/vector/vector_push_data.c.o: ../libft/vector/vector_push_data.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/printf.dir/libft/vector/vector_push_data.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_push_data.c.o   -c /Users/ngale/printf/libft/vector/vector_push_data.c
+
+CMakeFiles/printf.dir/libft/vector/vector_push_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/libft/vector/vector_push_data.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ngale/printf/libft/vector/vector_push_data.c > CMakeFiles/printf.dir/libft/vector/vector_push_data.c.i
+
+CMakeFiles/printf.dir/libft/vector/vector_push_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/libft/vector/vector_push_data.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/libft/vector/vector_push_data.c -o CMakeFiles/printf.dir/libft/vector/vector_push_data.c.s
+
 CMakeFiles/printf.dir/libft/vector/vector_push_front.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_push_front.c.o: ../libft/vector/vector_push_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/printf.dir/libft/vector/vector_push_front.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/printf.dir/libft/vector/vector_push_front.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_push_front.c.o   -c /Users/ngale/printf/libft/vector/vector_push_front.c
 
 CMakeFiles/printf.dir/libft/vector/vector_push_front.c.i: cmake_force
@@ -605,7 +657,7 @@ CMakeFiles/printf.dir/libft/vector/vector_push_front.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.o: ../libft/vector/vector_reallocate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.o   -c /Users/ngale/printf/libft/vector/vector_reallocate.c
 
 CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.i: cmake_force
@@ -618,7 +670,7 @@ CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.s: cmake_force
 
 CMakeFiles/printf.dir/libft/vector/vector_resize.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/libft/vector/vector_resize.c.o: ../libft/vector/vector_resize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/printf.dir/libft/vector/vector_resize.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/printf.dir/libft/vector/vector_resize.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/libft/vector/vector_resize.c.o   -c /Users/ngale/printf/libft/vector/vector_resize.c
 
 CMakeFiles/printf.dir/libft/vector/vector_resize.c.i: cmake_force
@@ -631,7 +683,7 @@ CMakeFiles/printf.dir/libft/vector/vector_resize.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/buffer.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/buffer.c.o: ../src/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/printf.dir/src/buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/printf.dir/src/buffer.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/buffer.c.o   -c /Users/ngale/printf/src/buffer.c
 
 CMakeFiles/printf.dir/src/buffer.c.i: cmake_force
@@ -644,7 +696,7 @@ CMakeFiles/printf.dir/src/buffer.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/floats.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/floats.c.o: ../src/floats.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/printf.dir/src/floats.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/printf.dir/src/floats.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/floats.c.o   -c /Users/ngale/printf/src/floats.c
 
 CMakeFiles/printf.dir/src/floats.c.i: cmake_force
@@ -657,7 +709,7 @@ CMakeFiles/printf.dir/src/floats.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/ft_printf.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/ft_printf.c.o: ../src/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/printf.dir/src/ft_printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/printf.dir/src/ft_printf.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/ft_printf.c.o   -c /Users/ngale/printf/src/ft_printf.c
 
 CMakeFiles/printf.dir/src/ft_printf.c.i: cmake_force
@@ -670,7 +722,7 @@ CMakeFiles/printf.dir/src/ft_printf.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/handle_numbers.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/handle_numbers.c.o: ../src/handle_numbers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/printf.dir/src/handle_numbers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/printf.dir/src/handle_numbers.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/handle_numbers.c.o   -c /Users/ngale/printf/src/handle_numbers.c
 
 CMakeFiles/printf.dir/src/handle_numbers.c.i: cmake_force
@@ -683,7 +735,7 @@ CMakeFiles/printf.dir/src/handle_numbers.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/main.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/printf.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/printf.dir/src/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/main.c.o   -c /Users/ngale/printf/src/main.c
 
 CMakeFiles/printf.dir/src/main.c.i: cmake_force
@@ -696,7 +748,7 @@ CMakeFiles/printf.dir/src/main.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/parse.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/parse.c.o: ../src/parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/printf.dir/src/parse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/printf.dir/src/parse.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/parse.c.o   -c /Users/ngale/printf/src/parse.c
 
 CMakeFiles/printf.dir/src/parse.c.i: cmake_force
@@ -709,7 +761,7 @@ CMakeFiles/printf.dir/src/parse.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/print.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/print.c.o: ../src/print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/printf.dir/src/print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/printf.dir/src/print.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/print.c.o   -c /Users/ngale/printf/src/print.c
 
 CMakeFiles/printf.dir/src/print.c.i: cmake_force
@@ -754,15 +806,19 @@ printf_OBJECTS = \
 "CMakeFiles/printf.dir/libft/vector/vector_copy.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_destroy.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_erase.c.o" \
+"CMakeFiles/printf.dir/libft/vector/vector_free_size.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_get_element.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_init.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_insert.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_move.c.o" \
+"CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.o" \
+"CMakeFiles/printf.dir/libft/vector/vector_move_data.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_offset.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_push_back.c.o" \
+"CMakeFiles/printf.dir/libft/vector/vector_push_data.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_push_front.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.o" \
 "CMakeFiles/printf.dir/libft/vector/vector_resize.c.o" \
@@ -809,15 +865,19 @@ printf: CMakeFiles/printf.dir/libft/vector/vector_clear.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_copy.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_destroy.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_erase.c.o
+printf: CMakeFiles/printf.dir/libft/vector/vector_free_size.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_get_element.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_init.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_insert.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_is_empty.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_move.c.o
+printf: CMakeFiles/printf.dir/libft/vector/vector_move_back_data.c.o
+printf: CMakeFiles/printf.dir/libft/vector/vector_move_data.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_offset.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_pop_back.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_pop_front.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_push_back.c.o
+printf: CMakeFiles/printf.dir/libft/vector/vector_push_data.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_push_front.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_reallocate.c.o
 printf: CMakeFiles/printf.dir/libft/vector/vector_resize.c.o
@@ -830,7 +890,7 @@ printf: CMakeFiles/printf.dir/src/parse.c.o
 printf: CMakeFiles/printf.dir/src/print.c.o
 printf: CMakeFiles/printf.dir/build.make
 printf: CMakeFiles/printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Linking C executable printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C executable printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,7 +6,7 @@
 #    By: lcarmelo <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/27 15:54:57 by lcarmelo          #+#    #+#              #
-#    Updated: 2020/02/10 17:52:29 by lcarmelo         ###   ########.fr        #
+#    Updated: 2020/02/11 21:04:08 by lcarmelo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 		
@@ -35,17 +35,20 @@ FUN_STRINGS = \
         ft_putstr \
         ft_strlen \
         ft_strchr \
+		ft_strjoin \
+		ft_strcpy \
+		ft_strdup \
+		ft_strcat \
         ft_strchri \
-        ft_strclr \
-        ft_strjoin \
-        ft_strdup \
-        ft_strcat \
-        ft_strcpy
+		ft_strclr
 
 FUN_VECTOR = \
 		vector_init \
 		vector_copy \
 		vector_move \
+		vector_move_data \
+		vector_move_back_data \
+		vector_push_data \
 		vector_push_back \
 		vector_push_front \
 		vector_insert \
@@ -57,9 +60,10 @@ FUN_VECTOR = \
 		vector_destroy \
 		vector_is_empty \
 		vector_byte_size \
+		vector_free_size \
 		vector_resize \
 		vector_reallocate \
-		vector_offset 
+		vector_offset \
 
 DIR_CONVERSION  = ./conversion/
 DIR_MEMORY      = ./memory/
@@ -77,7 +81,7 @@ OBJ_ALL         = $(addsuffix .o, $(FUN_CONVERSION) $(FUN_MEMORY) $(FUN_STRINGS)
 
 CC              = gcc
 NAME            = libft.a
-CFLAGS          = -Wall -Wextra -Werror -O2 -I$(DIR_INC)
+CFLAGS          = -O2 -I$(DIR_INC)
 
 all: $(NAME)
 

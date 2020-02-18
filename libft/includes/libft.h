@@ -6,7 +6,7 @@
 /*   By: lcarmelo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/23 20:36:34 by lcarmelo          #+#    #+#             */
-/*   Updated: 2020/02/10 17:26:00 by lcarmelo         ###   ########.fr       */
+/*   Updated: 2020/02/12 14:58:27 by lcarmelo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 */
 
 # define FT_MAX(a, b)		(b & ((a - b) >> 31)) | (a & (~(a - b) >> 31))
-# define FT_MIN(a, b)		(a & ((a - b) >> 31))| (b & (~(a - b) >> 31))
+# define FT_MIN(a, b)		(a & ((a - b) >> 31)) | (b & (~(a - b) >> 31))
 # define FT_ABS(a)			(a ^ (a >> 31)) - (a >> 31)
 # define FT_SIGN(a)         (a < 0) ? -1 : (a > 0) 
 
@@ -28,13 +28,13 @@ typedef unsigned char		t_uc;
 typedef const unsigned char	t_cuc;
 typedef unsigned long long	t_ull;
 typedef long long			t_ll;
+typedef unsigned long 		t_ul;
 typedef long				t_l;
 typedef short int			t_si;
 typedef unsigned long		t_ul;
 typedef unsigned int		t_ui;
 typedef unsigned short int	t_usi;
-typedef double              t_f;
-typedef long double         t_lf;
+typedef long double         t_ld;
 
 /*
 ** --------------------------- FUNCTIONS ------------------------------------------
@@ -64,14 +64,15 @@ char						*ft_strchr(const char *str, int ch);
 int							ft_strchri(const char *str, int ch);
 int							ft_isdigit(int c);
 int                         ft_isprint(int c);
-void                        ft_strclr(char *s);
-char                        *ft_strjoin(const char *str1, const char *str2);
-char                        *ft_strdup(const char *str);
 char                        *ft_strcat(char *dest, const char *src);
+char                        *ft_strjoin(const char *str1, const char *str2);
 char                        *ft_strcpy(char *dst, const char *src);
+char                        *ft_strdup(const char *str);
+void                        ft_strclr(char *str);
+
 
 /* 
-** --------------------------- CONVERSION ------------------------------------------
+** --------------------------- CONVERSION ---------------------------------------------
 */
 
 int							ft_atoi(const char *str);

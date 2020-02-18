@@ -76,8 +76,8 @@ void        parse_specifier(t_printf *p)
         print_char(p);
     else if (ft_strchr(S_STR, p->c))
         print_str(p);
-//    else if (ft_strchr(S_FLOAT, p->c))
-//        handle_float(p);
+    else if (ft_strchr(S_FLOAT, p->c))
+        handle_float(p);
     else if (p->c)
         buffer_set(p, p->c, 1, SAVE);
     else

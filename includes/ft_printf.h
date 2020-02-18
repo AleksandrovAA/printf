@@ -66,7 +66,8 @@
 
 # define STR_NULL 	"(null)"
 # define BUF_SIZE 	16 
-# define SAVE 		1		
+# define SAVE 		1
+# define STD_PRECI  6
 
 /*
 ** --------------------------- STRUCTURE -----------------------------------------------
@@ -110,6 +111,14 @@ void			handle_int(t_printf *p);
 void			handle_uint(t_printf *p);
 void			handle_hex(t_printf *p);
 void			handle_oct(t_printf *p);
+void            handle_float(t_printf *p);
+
+/*
+** --------------------------- FLOATS ---------------------------------------------------
+*/
+
+void ft_round_digit(char **str, t_vector *vec_float, t_ll i, t_ll shift);
+void ft_round_precision(t_printf *p, char **str, t_vector *vec_float, t_ll i);
 
 /*
 ** --------------------------- PRINT ----------------------------------------------------

@@ -49,15 +49,19 @@ add_executable(printf
         libft/vector/vector_copy.c
         libft/vector/vector_destroy.c
         libft/vector/vector_erase.c
+        libft/vector/vector_free_size.c
         libft/vector/vector_get_element.c
         libft/vector/vector_init.c
         libft/vector/vector_insert.c
         libft/vector/vector_is_empty.c
         libft/vector/vector_move.c
+        libft/vector/vector_move_back_data.c
+        libft/vector/vector_move_data.c
         libft/vector/vector_offset.c
         libft/vector/vector_pop_back.c
         libft/vector/vector_pop_front.c
         libft/vector/vector_push_back.c
+        libft/vector/vector_push_data.c
         libft/vector/vector_push_front.c
         libft/vector/vector_reallocate.c
         libft/vector/vector_resize.c

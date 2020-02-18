@@ -203,6 +203,9 @@
 		<Unit filename="/Users/ngale/printf/libft/vector/vector_erase.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/ngale/printf/libft/vector/vector_free_size.c">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/ngale/printf/libft/vector/vector_get_element.c">
 			<Option target="printf"/>
 		</Unit>
@@ -218,6 +221,12 @@
 		<Unit filename="/Users/ngale/printf/libft/vector/vector_move.c">
 			<Option target="printf"/>
 		</Unit>
+		<Unit filename="/Users/ngale/printf/libft/vector/vector_move_back_data.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/ngale/printf/libft/vector/vector_move_data.c">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/ngale/printf/libft/vector/vector_offset.c">
 			<Option target="printf"/>
 		</Unit>
@@ -228,6 +237,9 @@
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/ngale/printf/libft/vector/vector_push_back.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/ngale/printf/libft/vector/vector_push_data.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/ngale/printf/libft/vector/vector_push_front.c">
