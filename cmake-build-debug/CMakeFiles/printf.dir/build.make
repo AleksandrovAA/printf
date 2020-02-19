@@ -733,9 +733,22 @@ CMakeFiles/printf.dir/src/handle_numbers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/src/handle_numbers.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/src/handle_numbers.c -o CMakeFiles/printf.dir/src/handle_numbers.c.s
 
+CMakeFiles/printf.dir/src/long.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/src/long.c.o: ../src/long.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/printf.dir/src/long.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/long.c.o   -c /Users/ngale/printf/src/long.c
+
+CMakeFiles/printf.dir/src/long.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/src/long.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ngale/printf/src/long.c > CMakeFiles/printf.dir/src/long.c.i
+
+CMakeFiles/printf.dir/src/long.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/src/long.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ngale/printf/src/long.c -o CMakeFiles/printf.dir/src/long.c.s
+
 CMakeFiles/printf.dir/src/main.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/printf.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/printf.dir/src/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/main.c.o   -c /Users/ngale/printf/src/main.c
 
 CMakeFiles/printf.dir/src/main.c.i: cmake_force
@@ -748,7 +761,7 @@ CMakeFiles/printf.dir/src/main.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/parse.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/parse.c.o: ../src/parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/printf.dir/src/parse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/printf.dir/src/parse.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/parse.c.o   -c /Users/ngale/printf/src/parse.c
 
 CMakeFiles/printf.dir/src/parse.c.i: cmake_force
@@ -761,7 +774,7 @@ CMakeFiles/printf.dir/src/parse.c.s: cmake_force
 
 CMakeFiles/printf.dir/src/print.c.o: CMakeFiles/printf.dir/flags.make
 CMakeFiles/printf.dir/src/print.c.o: ../src/print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/printf.dir/src/print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/printf.dir/src/print.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/printf.dir/src/print.c.o   -c /Users/ngale/printf/src/print.c
 
 CMakeFiles/printf.dir/src/print.c.i: cmake_force
@@ -826,6 +839,7 @@ printf_OBJECTS = \
 "CMakeFiles/printf.dir/src/floats.c.o" \
 "CMakeFiles/printf.dir/src/ft_printf.c.o" \
 "CMakeFiles/printf.dir/src/handle_numbers.c.o" \
+"CMakeFiles/printf.dir/src/long.c.o" \
 "CMakeFiles/printf.dir/src/main.c.o" \
 "CMakeFiles/printf.dir/src/parse.c.o" \
 "CMakeFiles/printf.dir/src/print.c.o"
@@ -885,12 +899,13 @@ printf: CMakeFiles/printf.dir/src/buffer.c.o
 printf: CMakeFiles/printf.dir/src/floats.c.o
 printf: CMakeFiles/printf.dir/src/ft_printf.c.o
 printf: CMakeFiles/printf.dir/src/handle_numbers.c.o
+printf: CMakeFiles/printf.dir/src/long.c.o
 printf: CMakeFiles/printf.dir/src/main.c.o
 printf: CMakeFiles/printf.dir/src/parse.c.o
 printf: CMakeFiles/printf.dir/src/print.c.o
 printf: CMakeFiles/printf.dir/build.make
 printf: CMakeFiles/printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking C executable printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ngale/printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Linking C executable printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

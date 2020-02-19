@@ -96,7 +96,7 @@ void handle_oct(t_printf *p)
 	free(str_oct);
 }
 
-void ft_round_digit(char **str, t_vector *vec_float, t_ll i, t_ll shift)
+t_ll ft_round_digit(char **str, t_vector *vec_float, t_ll i, t_ll shift)
 {
     char *str_float;
 
@@ -115,6 +115,7 @@ void ft_round_digit(char **str, t_vector *vec_float, t_ll i, t_ll shift)
             str_float[i]++;
         }
     }
+    return (i);
 }
 
 void ft_round_precision(t_printf *p, char **str, t_vector *vec_float, t_ll i)
@@ -125,7 +126,7 @@ void ft_round_precision(t_printf *p, char **str, t_vector *vec_float, t_ll i)
     if (p->f & F_PRECI)
     {
         i = ft_strchri(str_float, '.') + 1;
-        ft_round_digit(&str_float, vec_float, i, 2);
+        i = ft_round_digit(&str_float, vec_float, i, 2);
         p->precision = 0;
         str_float[ft_strchri(str_float, '.') + ((p->f & F_SHARP) != 0)] = '\0';
         p->f &= ~F_PRECI;
@@ -133,9 +134,9 @@ void ft_round_precision(t_printf *p, char **str, t_vector *vec_float, t_ll i)
     else
     {
         i = ft_strchri(str_float, '.') + p->precision + 1;
-        ft_round_digit(&str_float, vec_float, i, 1);
+        i = ft_round_digit(&str_float, vec_float, i, 1);
         (str_float[i] == '.') ? i-- : 0;
-        ft_round_digit(&str_float, vec_float, i, 1);
+        i = ft_round_digit(&str_float, vec_float, i, 1);
         str_float[ft_strchri(str_float, '.') + p->precision + 1] = '\0';
     }
 }

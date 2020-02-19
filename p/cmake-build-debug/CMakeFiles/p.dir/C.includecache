@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/ft_printf.h
+stdarg.h
+-
+libft.h
+../includes/libft.h
+vector.h
+../includes/vector.h
+
+../libft/includes/libft.h
+stdlib.h
+-
+unistd.h
+-
+
+../libft/includes/vector.h
+libft.h
+../libft/includes/libft.h
+
+/Users/ngale/p/src/round_numbers.c
+ft_printf.h
+/Users/ngale/p/src/ft_printf.h
+

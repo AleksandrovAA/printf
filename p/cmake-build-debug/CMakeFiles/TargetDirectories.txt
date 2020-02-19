@@ -1,0 +1,3 @@
+/Users/ngale/p/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ngale/p/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ngale/p/cmake-build-debug/CMakeFiles/p.dir

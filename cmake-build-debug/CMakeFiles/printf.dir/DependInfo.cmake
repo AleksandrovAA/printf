@@ -56,6 +56,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ngale/printf/src/floats.c" "/Users/ngale/printf/cmake-build-debug/CMakeFiles/printf.dir/src/floats.c.o"
   "/Users/ngale/printf/src/ft_printf.c" "/Users/ngale/printf/cmake-build-debug/CMakeFiles/printf.dir/src/ft_printf.c.o"
   "/Users/ngale/printf/src/handle_numbers.c" "/Users/ngale/printf/cmake-build-debug/CMakeFiles/printf.dir/src/handle_numbers.c.o"
+  "/Users/ngale/printf/src/long.c" "/Users/ngale/printf/cmake-build-debug/CMakeFiles/printf.dir/src/long.c.o"
   "/Users/ngale/printf/src/main.c" "/Users/ngale/printf/cmake-build-debug/CMakeFiles/printf.dir/src/main.c.o"
   "/Users/ngale/printf/src/parse.c" "/Users/ngale/printf/cmake-build-debug/CMakeFiles/printf.dir/src/parse.c.o"
   "/Users/ngale/printf/src/print.c" "/Users/ngale/printf/cmake-build-debug/CMakeFiles/printf.dir/src/print.c.o"
@@ -64,7 +65,6 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../."
   "../includes"
   "../libft"
   "../libft/conversion"

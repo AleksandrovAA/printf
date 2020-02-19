@@ -69,7 +69,7 @@ DIR_CONVERSION  = ./conversion/
 DIR_MEMORY      = ./memory/
 DIR_STRINGS     = ./strings/
 DIR_VECTOR 		= ./vector/
-DIR_INC   		= ./includes
+DIR_INC   		= ./includes/
 
 SRC_CONVERSION  = $(addprefix $(DIR_CONVERSION), $(addsuffix .c, $(FUN_CONVERSION)))
 SRC_MEMORY      = $(addprefix $(DIR_MEMORY), $(addsuffix .c, $(FUN_MEMORY)))
@@ -81,7 +81,7 @@ OBJ_ALL         = $(addsuffix .o, $(FUN_CONVERSION) $(FUN_MEMORY) $(FUN_STRINGS)
 
 CC              = gcc
 NAME            = libft.a
-CFLAGS          = -O2 -I$(DIR_INC)
+CFLAGS          = -Wall -Wextra -Werror -O2 -I$(DIR_INC)
 
 all: $(NAME)
 

@@ -44,7 +44,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ngale/printf/."/>
 					<Add directory="/Users/ngale/printf/includes"/>
 					<Add directory="/Users/ngale/printf/libft"/>
 					<Add directory="/Users/ngale/printf/libft/conversion"/>
@@ -53,12 +52,14 @@
 					<Add directory="/Users/ngale/printf/libft/strings"/>
 					<Add directory="/Users/ngale/printf/libft/vector"/>
 					<Add directory="/Users/ngale/printf/src"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/ngale/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf"/>
@@ -74,7 +75,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ngale/printf/."/>
 					<Add directory="/Users/ngale/printf/includes"/>
 					<Add directory="/Users/ngale/printf/libft"/>
 					<Add directory="/Users/ngale/printf/libft/conversion"/>
@@ -83,12 +83,14 @@
 					<Add directory="/Users/ngale/printf/libft/strings"/>
 					<Add directory="/Users/ngale/printf/libft/vector"/>
 					<Add directory="/Users/ngale/printf/src"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/ngale/printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 printf/fast"/>
@@ -98,6 +100,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ngale/printf/Makefile">
+			<Option target="printf"/>
+		</Unit>
 		<Unit filename="/Users/ngale/printf/includes/ft_printf.h">
 			<Option target="printf"/>
 		</Unit>
@@ -261,6 +266,9 @@
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/ngale/printf/src/handle_numbers.c">
+			<Option target="printf"/>
+		</Unit>
+		<Unit filename="/Users/ngale/printf/src/long.c">
 			<Option target="printf"/>
 		</Unit>
 		<Unit filename="/Users/ngale/printf/src/main.c">

@@ -61,11 +61,15 @@ int main(void)
 //    flags.x = (flags.exp - (1 << 14)) + 1;
 //    printf("\n%hi\n", flags.x);
     //printf("%.0f\n", 17.333333333333);
-    printf("%.0f\n", 0.5);
-    ft_printf("%.0f\n", 0.5);
-    printf("%#.0f\n", 999.5);
-    ft_printf("%#.0f\n", 999.5);
-    printf("%.3f\n", 7.5275);
-    ft_printf("%.3f\n", 7.5275);
+//    printf("%.0f\n", 0.5);
+//    ft_printf("%.0f\n", 0.5);
+//    printf("%#.0f\n", 999.5);
+//    ft_printf("%#.0f\n", 999.5);
+//    printf("%.3f\n", 7.5275);
+//    ft_printf("%.3f\n", 7.5275);
+//    printf("%-5.3f\n", 7.3);
+//    ft_printf("%-5.3f\n", 7.3);
+    printf("%f\n", 0.000039);
+    ft_printf("%f\n", 0.000039);
     return (0);
 }

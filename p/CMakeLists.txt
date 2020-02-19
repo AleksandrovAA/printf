@@ -1,0 +1,80 @@
+cmake_minimum_required(VERSION 3.15)
+project(p)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(includes)
+include_directories(libft)
+include_directories(libft/conversion)
+include_directories(libft/ctype)
+include_directories(libft/includes)
+include_directories(libft/math)
+include_directories(libft/memory)
+include_directories(libft/strings)
+include_directories(libft/vector)
+include_directories(src)
+
+add_executable(p
+        includes/ft_printf.h
+        libft/conversion/ft_atoi.c
+        libft/conversion/ft_itoa.c
+        libft/conversion/ft_lltoa.c
+        libft/conversion/ft_uitoa_base.c
+        libft/conversion/ft_ulltoa_base.c
+        libft/ctype/ft_isalnum.c
+        libft/ctype/ft_isdigit.c
+        libft/ctype/ft_isprint.c
+        libft/includes/libft.h
+        libft/includes/vector.h
+        libft/math/ft_max.c
+        libft/math/ft_min.c
+        libft/math/ft_random.c
+        libft/memory/ft_bzero.c
+        libft/memory/ft_memalloc.c
+        libft/memory/ft_memccpy.c
+        libft/memory/ft_memchr.c
+        libft/memory/ft_memcpy.c
+        libft/memory/ft_memdel.c
+        libft/memory/ft_memmove.c
+        libft/memory/ft_memset.c
+        libft/memory/ft_memswap.c
+        libft/memory/ft_swap.c
+        libft/strings/ft_putchar.c
+        libft/strings/ft_putstr.c
+        libft/strings/ft_strcat.c
+        libft/strings/ft_strchr.c
+        libft/strings/ft_strchri.c
+        libft/strings/ft_strclr.c
+        libft/strings/ft_strcpy.c
+        libft/strings/ft_strdup.c
+        libft/strings/ft_strjoin.c
+        libft/strings/ft_strlen.c
+        libft/vector/vector_byte_size.c
+        libft/vector/vector_clear.c
+        libft/vector/vector_copy.c
+        libft/vector/vector_destroy.c
+        libft/vector/vector_erase.c
+        libft/vector/vector_free_size.c
+        libft/vector/vector_get_element.c
+        libft/vector/vector_init.c
+        libft/vector/vector_insert.c
+        libft/vector/vector_is_empty.c
+        libft/vector/vector_move.c
+        libft/vector/vector_move_back_data.c
+        libft/vector/vector_move_data.c
+        libft/vector/vector_offset.c
+        libft/vector/vector_pop_back.c
+        libft/vector/vector_pop_front.c
+        libft/vector/vector_push_back.c
+        libft/vector/vector_push_data.c
+        libft/vector/vector_push_front.c
+        libft/vector/vector_reallocate.c
+        libft/vector/vector_resize.c
+        src/buffer.c
+        src/ft_printf.c
+        src/handle_numbers.c
+        src/handle_specifier.c
+        src/parse.c
+        src/main.c
+        src/round_numbers.c
+        Makefile)

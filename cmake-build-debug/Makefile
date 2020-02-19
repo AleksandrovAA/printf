@@ -1527,6 +1527,33 @@ src/handle_numbers.c.s:
 	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/src/handle_numbers.c.s
 .PHONY : src/handle_numbers.c.s
 
+src/long.o: src/long.c.o
+
+.PHONY : src/long.o
+
+# target to build an object file
+src/long.c.o:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/src/long.c.o
+.PHONY : src/long.c.o
+
+src/long.i: src/long.c.i
+
+.PHONY : src/long.i
+
+# target to preprocess a source file
+src/long.c.i:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/src/long.c.i
+.PHONY : src/long.c.i
+
+src/long.s: src/long.c.s
+
+.PHONY : src/long.s
+
+# target to generate assembly for a file
+src/long.c.s:
+	$(MAKE) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/src/long.c.s
+.PHONY : src/long.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -1773,6 +1800,9 @@ help:
 	@echo "... src/handle_numbers.o"
 	@echo "... src/handle_numbers.i"
 	@echo "... src/handle_numbers.s"
+	@echo "... src/long.o"
+	@echo "... src/long.i"
+	@echo "... src/long.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

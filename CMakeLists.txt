@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.15)
-project(printf C)
+project(printf)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
 include_directories(includes)
 include_directories(libft)
 include_directories(libft/conversion)
@@ -69,6 +68,8 @@ add_executable(printf
         src/floats.c
         src/ft_printf.c
         src/handle_numbers.c
+        src/long.c
         src/main.c
         src/parse.c
-        src/print.c)
+        src/print.c
+        Makefile)

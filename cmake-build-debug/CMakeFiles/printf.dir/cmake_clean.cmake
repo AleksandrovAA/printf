@@ -51,6 +51,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/src/floats.c.o"
   "CMakeFiles/printf.dir/src/ft_printf.c.o"
   "CMakeFiles/printf.dir/src/handle_numbers.c.o"
+  "CMakeFiles/printf.dir/src/long.c.o"
   "CMakeFiles/printf.dir/src/main.c.o"
   "CMakeFiles/printf.dir/src/parse.c.o"
   "CMakeFiles/printf.dir/src/print.c.o"

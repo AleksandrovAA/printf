@@ -117,7 +117,7 @@ void            handle_float(t_printf *p);
 ** --------------------------- FLOATS ---------------------------------------------------
 */
 
-void ft_round_digit(char **str, t_vector *vec_float, t_ll i, t_ll shift);
+t_ll ft_round_digit(char **str, t_vector *vec_float, t_ll i, t_ll shift);
 void ft_round_precision(t_printf *p, char **str, t_vector *vec_float, t_ll i);
 
 /*

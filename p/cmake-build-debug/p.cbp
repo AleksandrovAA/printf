@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="p"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ngale/p/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ngale/p/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ngale/p/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p">
+				<Option output="/Users/ngale/p/cmake-build-debug/p" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ngale/p/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ngale/p/includes"/>
+					<Add directory="/Users/ngale/p/libft"/>
+					<Add directory="/Users/ngale/p/libft/conversion"/>
+					<Add directory="/Users/ngale/p/libft/ctype"/>
+					<Add directory="/Users/ngale/p/libft/includes"/>
+					<Add directory="/Users/ngale/p/libft/math"/>
+					<Add directory="/Users/ngale/p/libft/memory"/>
+					<Add directory="/Users/ngale/p/libft/strings"/>
+					<Add directory="/Users/ngale/p/libft/vector"/>
+					<Add directory="/Users/ngale/p/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 p"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="p/fast">
+				<Option output="/Users/ngale/p/cmake-build-debug/p" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ngale/p/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/ngale/p/includes"/>
+					<Add directory="/Users/ngale/p/libft"/>
+					<Add directory="/Users/ngale/p/libft/conversion"/>
+					<Add directory="/Users/ngale/p/libft/ctype"/>
+					<Add directory="/Users/ngale/p/libft/includes"/>
+					<Add directory="/Users/ngale/p/libft/math"/>
+					<Add directory="/Users/ngale/p/libft/memory"/>
+					<Add directory="/Users/ngale/p/libft/strings"/>
+					<Add directory="/Users/ngale/p/libft/vector"/>
+					<Add directory="/Users/ngale/p/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 p/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ngale/p/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ngale/p/Makefile">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/includes/ft_printf.h">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/conversion/ft_atoi.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/conversion/ft_itoa.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/conversion/ft_lltoa.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/conversion/ft_uitoa_base.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/conversion/ft_ulltoa_base.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/ctype/ft_isalnum.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/ctype/ft_isdigit.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/ctype/ft_isprint.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/includes/libft.h">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/includes/vector.h">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/math/ft_max.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/math/ft_min.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/math/ft_random.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_bzero.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memalloc.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memccpy.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memchr.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memcpy.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memdel.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memmove.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memset.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_memswap.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/memory/ft_swap.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_putchar.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_putstr.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strcat.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strchr.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strchri.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strclr.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strcpy.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strdup.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strjoin.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/strings/ft_strlen.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_byte_size.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_clear.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_copy.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_destroy.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_erase.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_free_size.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_get_element.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_init.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_insert.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_is_empty.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_move.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_move_back_data.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_move_data.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_offset.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_pop_back.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_pop_front.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_push_back.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_push_data.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_push_front.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_reallocate.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/libft/vector/vector_resize.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/src/buffer.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/src/ft_printf.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/src/handle_numbers.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/src/handle_specifier.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/src/main.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/src/parse.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/src/round_numbers.c">
+			<Option target="p"/>
+		</Unit>
+		<Unit filename="/Users/ngale/p/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
